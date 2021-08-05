@@ -1,0 +1,22 @@
+# Solution to the puzzle
+
+1.	Give 100 bottle to each one of the prisoners i.e., 1-100 bottles to 1st prisoner, 101-200 bottles to 2nd prisoner, 201-300 to 3rd prisoner, and so on
+    and ask them to drink some amount of wine from each of the bottles.
+    
+2.	Then after 7 days check which prisoner dies and select only those 100 bottles and let king drink from the rest of the bottles. For example: Prisoner 1 dies,
+    select 1-100 bottles. (9 Prisoners left)
+    
+3.	Then give 1-20 bottle to 1st prisoner, 21-40 to 2nd prisoner, 41-60 to 3rd prisoner, 61-80 to 4th prisoner and 81-100 bottles to 5th prisoner. In this we used 5 prisoners.
+
+4.	Now again after 7 days check which prisoner dies and select only those 20 bottles. For example: Prisoner 2 dies, select 41-60 bottles. (8 Prisoners left)
+
+5.	Now give 5 bottles to each of the prisoner. In this we used 4 prisoners.
+
+6.	Now again check which prisoner dies after 7 days and select only those 5 bottles. (7 Prisoners left)
+
+7.	Now give 1 bottle to each of the five prisoners. In this we used 5 prisoners.
+
+8.	Finally, after 7 days, check which prisoner dies, select that bottle and now we can say the its is the poisoned one. (6 Prisoners left)
+
+
+# In this way we can find the poisoned one bottle!
